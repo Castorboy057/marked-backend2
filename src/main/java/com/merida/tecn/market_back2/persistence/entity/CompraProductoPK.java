@@ -1,5 +1,4 @@
 package com.merida.tecn.market_back2.persistence.entity;
-raer todo el historial del servidor remoto
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
@@ -30,4 +29,6 @@ public class CompraProductoPK implements Serializable {
     public void setIdProductos(Integer idProductos) {
         this.idProductos = idProductos;
     }
+
+
 }
